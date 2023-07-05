@@ -58,7 +58,8 @@ main > div.videoz {
     padding: 20px;
     margin: 0px -15px 30px -15px;
     box-shadow: 0px 0px 5px black;
-    
+    position: relative;
+    padding-bottom: 59%;
 }
 
 main > p, h2 {
@@ -159,7 +160,7 @@ img {
 }
 
 img.pequena {
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -245,9 +246,12 @@ ul {
 
 iframe{
     margin: 0px;
-    max-width: 800px;
-    max-height: 449px;
+    width: 90%;
+    height: 90%;
     padding: 15px;
     text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
     
 }
