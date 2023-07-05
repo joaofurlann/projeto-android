@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'and';
+    src: url('fontes/idroid.otf') format('opentype');
+
+
+    
+    
+}
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    
+    
+}
+body{
+    background-color: rgba(190, 255, 217, 0.76);
+    margin : 0px;
+    
+    
+
+}
+a.externo::after {
+    content: ' 🔗';
+
+}
+header {
+    background-image: linear-gradient(to top, rgb(0, 54, 0), rgb(11, 190, 116));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header > p{
+    margin: auto;
+    max-width: 330px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1em;
+    
+
+}
+header > h1#cabecalho {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 3em;
+    
+    
+    
+}
+main > div.videoz {
+    max-width: 900px;
+    text-align: center;
+    background-color: darkgreen;
+    padding: 20px;
+    margin: 0px -15px 30px -15px;
+    box-shadow: 0px 0px 5px black;
+    
+}
+
+main > p, h2 {
+    text-align: left;
+    padding: 5px;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+    margin-bottom: 20px;
+    box-shadow: 0px 0px black;
+    padding: 15px;
+    
+    
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #006400;
+    background-color: #6fffab;
+    padding: 2px 6px;
+
+}
+main a:hover{
+    text-decoration: underline;
+    color: #06d306;
+    transition: 25ms;
+}
+
+
+
+
+h1.commom {
+    font-family: 'and', arial, sans-serif;
+    color: green;
+    
+}
+
+h2 {
+    font-family: 'and', arial, sans-serif;
+    color: rgb(7, 119, 7);
+    background-image: linear-gradient(to right, rgb(95, 250, 95), white);
+    border-radius: 5px;
+    
+}
+
+h3 {
+    
+    color: white;
+    background-color: green;
+    height: 30px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: bolder;
+    width: fit-content;
+    height: fit-content;
+
+    
+    
+}
+
+nav > a:hover {
+    background-color: rgb(124, 224, 124);
+    border-radius: 5px;
+    color: rgb(17, 66, 17);
+    transition: .5;
+}
+nav {
+    width: 500px;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+    
+
+
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.conteudo {
+    background-color: white;
+    max-width: 900px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+}
+
+div > p {
+    margin: 15px 15px 0px 15px;
+    padding: 15px;
+}
+
+
+
+picture {
+    margin: auto;
+}
+
+article {
+    background-color: rgb(181, 233, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+
+
+    
+
+}
+
+article  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #006400;
+    background-color: #6fffab;
+    padding: 2px 6px;
+}
+
+article a:hover {
+    background-color: rgb(124, 224, 124);
+    border-radius: 5px;
+    color: rgb(17, 66, 17);
+    transition: .5;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(58, 134, 61);
+    color: white;
+    
+}
+footer > p{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+section {
+    background-color: rgb(164, 228, 185);
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 0;
+
+}
+ul {
+    text-decoration: underline;
+    columns: 2;
+    list-style-type: '☑️  ';
+    
+}
+
+
+
+
+iframe{
+    margin: 0px;
+    max-width: 800px;
+    max-height: 449px;
+    padding: 15px;
+    text-align: center;
+    
+}
